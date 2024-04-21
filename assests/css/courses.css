@@ -1,0 +1,169 @@
+section.courses-container {
+  width: 100%;
+  padding: 2vw;
+}
+
+section.courses-container h2 {
+  font-size: 2vw;
+  font-weight: 600;
+  text-align: center;
+}
+
+section.courses-container .courses-container-list {
+  gap: 2vw;
+  width: 100%;
+  padding: 2vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section.courses-container .courses-container-list .course-element {
+  width: 90%;
+  height: 35vh;
+  padding: 1vw;
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #dadada;
+}
+
+section.courses-container .courses-container-list .course-element img {
+  width: 35%;
+  object-fit: cover;
+  border-radius: 10px;
+  object-position: center;
+}
+
+section.courses-container .courses-container-list .course-element .course-details {
+  width: 65%;
+  padding: .5vw 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+section.courses-container .courses-container-list .course-element .course-details span.name {
+  line-height: 1;
+  font-size: 1.6vw;
+  font-weight: 600;
+}
+
+section.courses-container .courses-container-list .course-element .course-details span.special {
+  padding-top: 2vw;
+  font-size: 1.10vw;
+  font-weight: 500;  
+}
+
+section.courses-container .courses-container-list .course-element .course-details .price {
+  gap: 2vw;
+  display: flex;
+  padding: .5vw 0;
+  align-items: center;
+}
+
+section.courses-container .courses-container-list .course-element .course-details .price span.current-price {
+  font-size: 1.2vw;
+  font-weight: 600;
+}
+
+section.courses-container .courses-container-list .course-element .course-details .price span.real-price {
+  font-size: 1vw;
+  color: #7a7a7a;
+  text-decoration: line-through;
+}
+
+section.courses-container .courses-container-list .course-element .course-details .price span.discount {
+  color: white;
+  display: flex;
+  font-size: 1vw;
+  font-weight: 600;
+  padding: .5vw 1vw;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: #26bb47;
+}
+
+section.courses-container .courses-container-list .course-element .course-details a {
+  color: white;
+  width: 20%;
+  display: flex;
+  font-size: 1.2vw;
+  padding: .5vw 0;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  transition: all ease .2s;
+  background-color: royalblue;
+}
+
+section.courses-container .courses-container-list .course-element .course-details a:hover {
+  background-color: #3a57bd;
+}
+
+@media (max-width:600px) {
+  section.courses-container {
+    padding: 4vw;
+  }
+  
+  section.courses-container h2 {
+    padding: 4vw 0;
+    font-size: 5vw;
+  }
+  
+  section.courses-container .courses-container-list {
+    gap: 8vw;
+  }
+  
+  section.courses-container .courses-container-list .course-element {
+    width: 100%;
+    height: 45vh;
+    padding: 2vw;
+    flex-direction: column;
+  }
+  
+  section.courses-container .courses-container-list .course-element img {
+    width: 100%;
+    height: 60%;
+  }
+  
+  section.courses-container .courses-container-list .course-element .course-details {
+    width: 100%;
+    height: 40%;
+    padding: 2vw;
+  }
+  
+  section.courses-container .courses-container-list .course-element .course-details span.name {
+    font-size: 4.4vw;
+  }
+  
+  section.courses-container .courses-container-list .course-element .course-details span.special {
+    font-size: 3.2vw;
+  }
+  
+  section.courses-container .courses-container-list .course-element .course-details .price {
+    gap: 4vw;
+  }
+  
+  section.courses-container .courses-container-list .course-element .course-details .price span.current-price {
+    font-size: 3.2vw;
+  }
+  
+  section.courses-container .courses-container-list .course-element .course-details .price span.real-price {
+    font-size: 3vw;
+  }
+  
+  section.courses-container .courses-container-list .course-element .course-details .price span.discount {
+    font-size: 3.2vw;
+    padding: 1.5vw 4vw;
+  }
+  
+  section.courses-container .courses-container-list .course-element .course-details a {
+    width: 30%;
+    padding: 2vw 0;
+    font-size: 3.2vw;
+  }
+}

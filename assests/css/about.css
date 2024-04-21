@@ -1,0 +1,106 @@
+section.about-us {
+  width: 100%;
+  padding: 4vw;
+  gap: 2vw;
+  display: flex;
+  flex-direction: column;
+}
+
+section.about-us .about-director h1 {
+  line-height: 1;
+  font-size: 1.8vw;
+  font-weight: 500;
+}
+
+section.about-us .about-director article {
+  width: 60%;
+  padding: 1vw 0;
+  font-size: 1vw;
+}
+
+section.about-us .director-message h1 {
+  line-height: 1;
+  font-size: 1.8vw;
+  font-weight: 500;
+}
+
+section.about-us .director-message p {
+  padding: 1vw 0;
+  font-size: 1vw;
+  font-weight: 600;
+}
+
+section.about-us .director-message article {
+  font-size: 1vw;
+}
+
+section.about-us .facilities h1 {
+  line-height: 1;
+  font-size: 1.8vw;
+  font-weight: 500;
+}
+
+section.about-us .facilities ul {
+  padding: 1vw 0;
+}
+
+section.about-us .facilities ul li {
+  font-size: 1vw;
+  padding: .5vw 0;
+  list-style: disc;
+}
+
+section.about-us .facilities ul li span {
+  font-weight: 500;
+}
+
+@media (max-width:600px) {
+  section.about-us {
+    gap: 6vw;
+    padding: 6vw 4vw;
+  }
+  
+  section.about-us .about-director h1 {
+    font-size: 4.5vw;
+    font-weight: 600;
+  }
+  
+  section.about-us .about-director article {
+    width: 100%;
+    padding: 2vw 0;
+    font-size: 3.2vw;
+  }
+  
+  section.about-us .director-message h1 {
+    font-size: 4.5vw;
+    font-weight: 600;
+  }
+  
+  section.about-us .director-message p {
+    padding: 2vw 0;
+    font-size: 3.4vw;
+  }
+  
+  section.about-us .director-message article {
+    font-size: 3.2vw;
+  }
+  
+  section.about-us .facilities h1 {
+    font-size: 4.5vw;
+    font-weight: 600;
+  }
+  
+  section.about-us .facilities ul {
+    padding: 2vw 0;
+  }
+  
+  section.about-us .facilities ul li {
+    padding: 1vw 0;
+    font-size: 3.2vw;
+    list-style: none;
+  }
+  
+  section.about-us .facilities ul li span {
+    font-weight: 600;
+  }
+}

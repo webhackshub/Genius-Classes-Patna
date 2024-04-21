@@ -1,0 +1,45 @@
+h2 {
+  font-size: 2vw;
+  font-weight: 600;
+  padding-top: 2vw;
+  text-align: center;
+}
+
+section.gallery-container {
+  width: 100%;
+  padding: 2vw 4vw;
+  gap: 3.5vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+section.gallery-container .gallery {
+  width: 30%;
+}
+
+section.gallery-container .gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  object-position: center;
+}
+
+@media (max-width:600px) {
+  h2 {
+    padding: 4vw 0;
+    font-size: 5vw;
+  }
+  
+  section.gallery-container {
+    gap: 4vw;
+    padding: 0;
+    padding-bottom: 4vw;
+    justify-content: center;
+  }
+  
+  section.gallery-container .gallery {
+    width: 90%;
+  }
+}
