@@ -23,6 +23,7 @@ iitJeeDetails.forEach(function (course) {
           <span class="discount">${Math.floor(discountPercentage)}% OFF</span>
         </div>
       </div>
+      <a href="">Get started</a>
     </div>
   </div>
   `;
